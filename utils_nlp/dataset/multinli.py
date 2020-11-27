@@ -21,7 +21,7 @@ from utils_nlp.dataset.url_utils import extract_zip, maybe_download
 from utils_nlp.models.transformers.common import MAX_SEQ_LEN
 from utils_nlp.models.transformers.sequence_classification import Processor
 
-URL = "http://www.nyu.edu/projects/bowman/multinli/multinli_1.0.zip"
+URL = "https://cims.nyu.edu/~sbowman/multinli/multinli_1.0.zip"
 DATA_FILES = {
     "train": "multinli_1.0/multinli_1.0_train.jsonl",
     "dev_matched": "multinli_1.0/multinli_1.0_dev_matched.jsonl",
